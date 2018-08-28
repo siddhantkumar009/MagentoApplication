@@ -36,6 +36,7 @@ public class MagentoTest {
 		Main m = new Main(driver);
 		m.clickOnLogout();
 		Thread.sleep(2000);
+		System.out.println("data is pushed");
 
 		driver.quit();
 
